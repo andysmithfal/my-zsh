@@ -5,6 +5,7 @@ Clone this repo first
 `git clone https://github.com/andysmithfal/my-zsh.git ~/.zshrepo`
 
 Link .zshrc 
+
 `ln -s ~/.zshrepo/.zshrc ~/.zshrc`
 
 Install zsh (if req'd)
@@ -24,3 +25,8 @@ Link custom folder
 rm -rf ~/.oh-my-zsh/custom
 ln -s ~/.zshrepo/custom ~/.oh-my-zsh
 ```
+
+Other things to install: 
+
+- [bat](https://github.com/sharkdp/bat)
+- [thefuck](https://github.com/nvbn/thefuck)
