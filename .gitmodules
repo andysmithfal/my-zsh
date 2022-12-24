@@ -4,3 +4,6 @@
 [submodule "custom/themes/powerlevel"]
 	path = custom/themes/powerlevel
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "custom/plugins/zsh-syntax-highlighting"]
+	path = custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
