@@ -30,3 +30,4 @@ Other things to install:
 
 - [bat](https://github.com/sharkdp/bat)
 - [thefuck](https://github.com/nvbn/thefuck)
+- [p10k font](https://github.com/romkatv/powerlevel10k#fonts)
