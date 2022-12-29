@@ -4,6 +4,10 @@ Clone this repo first
 
 `git clone https://github.com/andysmithfal/my-zsh.git ~/.zshrepo`
 
+And submodules:
+
+`git submodule update --init --recursive`
+
 Link .zshrc 
 
 `ln -s ~/.zshrepo/.zshrc ~/.zshrc`

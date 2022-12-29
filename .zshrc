@@ -117,6 +117,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+if [ -d "$HOME/.local/bin" ]
+then
+    path+=$HOME/.local/bin
+    export PATH
+fi
+
 if command -v thefuck &> /dev/null
 then
     eval $(thefuck --alias)
@@ -124,3 +130,5 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+  export PATH="${PATH}:/home/andysmith/.cargo/bin"
