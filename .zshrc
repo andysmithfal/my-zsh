@@ -138,3 +138,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 {eval `ssh-agent -s`; ssh-add ~/.ssh/gatechs;} &>/dev/null
+
+if grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null; then
+    open () {
+      /mnt/c/Windows/explorer.exe "$1"
+    }
+fi
